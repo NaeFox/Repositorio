@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <title>formularios</title>
+
+    </head>
+    <body>
+        
+        <header>
+            <h1>formularios</h1>
+
+        </header>
+        <main>
+            <form>
+                <ul>
+                    <li>
+                
+                    <label for="nombre">Nombre</label>
+                    <input id= "nombre"type="text" name="nombre" placeholder="Escribe aqui tu nombre" value="Eva" autofocus
+                    required minlength="3" maxlength="6" autocomplete="off"/>
+                    
+                    </li>
+                    
+                    <li>
+                <label for="pass">contraseña</label>
+                <input type="password" name= "pass" id="pass">
+                
+                </li>
+
+                <li>
+                    <label for="text">Text area</label> 
+                    <textarea name="text" id="text" cols="30" rows="10">Escribe aqui</textarea>
+                </li>
+
+                <li>
+                    <label for="select">select</label>
+                    <select name="select" id="select">
+                    <option>Opcion 1</option>
+                    <option>Opcion 2</option>
+
+                </li>
+                    <li>
+                    <fieldset>
+                        <legend> Genero </legend>
+                        
+                        <ul>  
+                            <li>
+                                <input type="radio" id="man" name="gender">
+                                <label for="man">hombre</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="woman" name="gender">
+                                <label for="woman">mujer</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="other" name="gender">
+                                <label for="other">hombre</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+
+
+                </li>
+                <li>
+                    <input type="seach">
+                
+                </li>
+
+                <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail">
+
+                </li>
+
+                <li>
+                    <label for="tel">Telefono</label>
+                    <input type="tel" id="tel">
+                </li>
+                <li>
+                    <label for="num">Numero</label>
+                    <input type="number" id="num" min="-10" max="10" step="5">
+                </li>
+                <li>
+                    <label for="range">Rango</label>
+                    <input type="range" name="" id="range" min="-10" max="10" step="5">
+                </li>
+                <li>
+                    <input type="checkbox" name="" id="check">
+                    <label for="check">Checkbox<label>
+                </li>
+            </ul>
+                <button type="submit">Enviar</button>
+                <button type="button">click!</button>
+                <button type="reset">Limpiar</button>
+            </form>
+        </main>
+    </body>
+</html>
